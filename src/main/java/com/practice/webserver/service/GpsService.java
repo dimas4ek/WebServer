@@ -1,16 +1,14 @@
 package com.practice.webserver.service;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 @Service
-public class GPSService {
+public class GpsService {
 
     private static final String ESP8266_IP = "esp8266-ip-address";
     public static final int ESP8266_PORT = 0;

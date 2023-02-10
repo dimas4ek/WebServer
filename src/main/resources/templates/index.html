@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
@@ -8,7 +8,8 @@
 <body>
 <div class="container">
     <h1>Home</h1>
-    <a th:href="@{/gpsLocation}" class="btn">View GPS Location</a>
+    <a href="/gpsLocation" class="btn">View GPS Location</a>
+    <a href="/ledControl" class="btn">Control LED</a>
 </div>
 </body>
 </html>
